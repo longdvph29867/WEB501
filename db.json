@@ -1,44 +1,4 @@
 {
   "products": [
-    {
-      "name": "Zeph Soto",
-      "nhaxuatban": "Fugiat suscipit ess",
-      "mota": "Ratione ea autem cup",
-      "danhgia": "1",
-      "gia": "97",
-      "id": 2
-    },
-    {
-      "name": "Gwendolyn Potter",
-      "nhaxuatban": "Laborum Irure magna",
-      "mota": "Non fugiat aut at d",
-      "danhgia": "5",
-      "gia": "68",
-      "id": 3
-    },
-    {
-      "name": "Stacey Beard",
-      "nhaxuatban": "Velit incidunt null",
-      "mota": "Voluptate dolorem ve",
-      "danhgia": "2",
-      "gia": "33",
-      "id": 4
-    },
-    {
-      "name": "Emerald Briggs",
-      "nhaxuatban": "Ea ipsa id quia aut",
-      "mota": "Quod incididunt dolo",
-      "danhgia": "4",
-      "gia": "84",
-      "id": 5
-    },
-    {
-      "name": "Clayton Goodwin",
-      "nhaxuatban": "Vel nostrum qui dolo",
-      "mota": "Vero hic porro inven",
-      "danhgia": "2",
-      "gia": "94",
-      "id": 6
-    }
   ]
 }

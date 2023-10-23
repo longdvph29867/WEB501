@@ -81,7 +81,7 @@ export default function CreatePage() {
 
   return /*html*/`
     <div class="my-5 w-50 mx-auto">
-        <h2 class="text-success text-center my-3">Thêm mới</h2>
+        <h2 class="text-primary text-center my-3">Thêm mới</h2>
 
         <form action="" id='formCreate'>
             <div class="form-group mb-3">
@@ -119,7 +119,7 @@ export default function CreatePage() {
             </div>
             <small id="helpId" class="error-el form-text text-danger"></small>
             <div>
-                <button class="btn btn-success">Thêm mới</button>
+                <button class="btn btn-primary">Thêm mới</button>
             </div>
         </form>
     </div>

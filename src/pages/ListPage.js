@@ -56,7 +56,7 @@ export default function ListPage() {
 
   return /*html*/`
     <div class="container my-5">
-        <a href="/create" class="btn btn-success mb-3">Thêm mới</a>
+        <a href="/create" class="btn btn-primary mb-3">Thêm mới</a>
             <div>
                 <form action="" class="d-flex my-2" id="form-search">
                     <div class="form-group">
@@ -88,7 +88,7 @@ export default function ListPage() {
                     <td>${item.gia}</td>
                     <td>${item.danhgia}</td>
                     <td>
-                        <a href="/edit/${item.id}" class="btn btn-warning">Edit</a>
+                        <a href="/edit/${item.id}" class="btn btn-primary">Edit</a>
                         <button data-id="${item.id}" class="delete-btn btn btn-danger">Delete</button>
                     </td>
             </tr>   

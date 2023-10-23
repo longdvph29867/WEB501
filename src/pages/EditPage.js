@@ -90,7 +90,7 @@ export default function Edit(id) {
 
   return /*html*/`
     <div class="my-5 w-50 mx-auto">
-        <h2 class="text-warning text-center my-3">Cập nhật</h2>
+        <h2 class="text-primary text-center my-3">Cập nhật</h2>
 
         <form action="" id='formCreate'>
             <div class="form-group mb-3">
@@ -128,7 +128,7 @@ export default function Edit(id) {
             </div>
             <small id="helpId" class="error-el form-text text-danger"></small>
             <div>
-                <button class="btn btn-warning">Cập nhật</button>
+                <button class="btn btn-primary">Cập nhật</button>
             </div>
         </form>
     </div>
