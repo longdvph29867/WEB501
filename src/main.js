@@ -1,11 +1,22 @@
 import { render, router } from "./lib";
+import ListPage from "./pages/ListPage";
 import './style.css'
-
-
+import "../node_modules/bootstrap/dist/css/bootstrap.css"
+import CreatePage from "./pages/CreatePage";
+import Edit from "./pages/EditPage";
 // Router
 router.on('/', function () {
-  render("#app", () => `<h1 class="font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Welcome to ECMA base project</h1>`)
+  render("#app", ListPage)
 })
+
+router.on('/create', function () {
+    render("#app", CreatePage)
+  })
+
+  router.on('/edit/:id', function ({data}) {
+    render("#app", () => Edit(data.id))
+  })
+
 
 router.resolve();
 
